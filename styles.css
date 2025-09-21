@@ -8,3 +8,14 @@ body {
   text-align: center;
   margin: 10em;
 }
+@media only screen and (max-width: 600px){
+  body{
+    margin: 0;
+    font-size: 4dvw;
+    display: grid;
+    align-content: center;
+    padding-top: 25dvh;
+    padding-bottom: 25dvh;
+  }
+  
+}
